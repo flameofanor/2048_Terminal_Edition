@@ -8,7 +8,7 @@ public class Movement {
         LEFT (2), 
         RIGHT (3);
 
-        private final int index;
+        private int index;
 
         Direction(int index) {
             this.index = index;
@@ -19,7 +19,7 @@ public class Movement {
         }
         
     }
-    private char[] moveChars = {'w','s', 'a', 'd'};
+    private char[] moveChars = {'w', 's', 'a', 'd'};
 
     public Movement(char move) {
         
